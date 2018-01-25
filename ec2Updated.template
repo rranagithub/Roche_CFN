@@ -133,7 +133,7 @@
       "KeyName" : { "Ref" : "KeyName" },
       "SecurityGroupIds" : ["sg-78108601"],
       "SubnetId" : { "Ref" : "SubnetId" },
-      "Tags" : [ {"Key": "Name", "Value": "JenkinsServer"},
+      "Tags" : [ {"Key": "Name", "Value": "CFNServer"},
 	  {"Key": "Dept", "Value": {"Ref": "Tag1"}},
 				 {"Key": "Environment","Value": {"Ref": "Tag2"}},
                  {"Key": "CostCenter","Value": {"Ref": "Tag3"} },
