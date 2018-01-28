@@ -146,7 +146,7 @@
 "Outputs" : {
   
     "PublicIp" : {
-      "Value" : { "Fn::GetAtt" : [ "EC2", "PublicIp" ]},
+      "Value" : { "Fn::GetAtt" : [ "EC2", "WebServerInstance", "PublicIp" ]},
       "Description" : "Server's PublicIp Address"
     }
   }
